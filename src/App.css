@@ -34,6 +34,10 @@
   font-size: 18px;
 }
 
+.Todolist__stats--hidden {
+  display: none;
+}
+
 .Todolist__filters {
   display: flex;
   justify-content: space-evenly;

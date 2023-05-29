@@ -14,6 +14,9 @@ const TodoListStats = () => {
       <h1 className='Todolist__title'>TO DO LIST</h1>
       <ul className='Todolist__stats'>
         <li>Total - {totalNum} tasks</li>
+        <li className='Todolist__stats--hidden'>
+          Completed - {totalCompletedNum}
+        </li>
         <li>Not Completed - {totalUncompletedNum} tasks</li>
         <li>Completion Percentage - {formattedPercentCompleted}%</li>
       </ul>
